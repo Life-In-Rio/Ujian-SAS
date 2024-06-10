@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "name": "ujian-sas",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "npx Tailwind -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
